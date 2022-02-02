@@ -1,0 +1,56 @@
+"use strict";
+
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+var lightCodeTheme = require('prism-react-renderer/themes/github');
+
+var darkCodeTheme = require('prism-react-renderer/themes/dracula');
+/** @type {import('@docusaurus/types').Config} */
+
+
+var config = {
+  title: 'Sibe',
+  tagline: ' ',
+  url: 'https://your-docusaurus-test-site.com',
+  baseUrl: '/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.svg',
+  organizationName: 'facebook',
+  // Usually your GitHub org/user name.
+  projectName: 'sibe-docs',
+  // Usually your repo name.
+  presets: [['classic',
+  /** @type {import('@docusaurus/preset-classic').Options} */
+  {
+    docs: {
+      routeBasePath: '/',
+      editUrl: 'https://github.com/siberian-protocol'
+    },
+    blog: false,
+    theme: {
+      customCss: require.resolve('./src/css/custom.css')
+    }
+  }]],
+  themeConfig:
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true
+    },
+    navbar: {
+      logo: {
+        alt: 'Sibe Logo',
+        src: 'img/logo.svg'
+      },
+      items: [{
+        href: 'https://github.com/siberian-protocol',
+        position: 'right',
+        label: 'GitHub'
+      }]
+    },
+    footer: {}
+  }
+};
+module.exports = config;

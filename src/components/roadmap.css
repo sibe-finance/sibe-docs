@@ -1,0 +1,40 @@
+.goal-wrapper {
+    box-sizing: border-box;
+    border: 3px solid #0181b8;
+    border-radius: 10px;
+    min-height: 20px;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+.goal {
+  align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin-top: 2px;
+}
+
+.check {
+  color: white;
+}
