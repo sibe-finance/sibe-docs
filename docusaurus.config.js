@@ -8,12 +8,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Sibe',
   tagline: ' ',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://siberian-protocol.github.io',
+  baseUrl: '/sibe-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'siberian-protocol', // Usually your GitHub org/user name.
   projectName: 'sibe-docs', // Usually your repo name.
 
   presets: [
