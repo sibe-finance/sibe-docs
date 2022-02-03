@@ -5,7 +5,7 @@
 
 * ### [**Twitter**](/)
 
-* ### [**Github**](https://github.com/siberian-protocol)
+* ### [**Github**](https://github.com/sibe-finance)
 
 * ### [**Telegram chat**](/)
 

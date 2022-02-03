@@ -11,21 +11,22 @@ var darkCodeTheme = require('prism-react-renderer/themes/dracula');
 var config = {
   title: 'Sibe',
   tagline: ' ',
-  url: 'https://siberian-protocol.github.io',
+  url: 'https://sibe-finance.github.io',
   baseUrl: '/sibe-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
-  organizationName: 'siberian-protocol',
+  organizationName: 'sibe-finance',
   // Usually your GitHub org/user name.
   projectName: 'sibe-docs',
   // Usually your repo name.
+  trailingSlash: false,
   presets: [['classic',
   /** @type {import('@docusaurus/preset-classic').Options} */
   {
     docs: {
       routeBasePath: '/',
-      editUrl: 'https://github.com/siberian-protocol'
+      editUrl: 'https://github.com/sibe-finance'
     },
     blog: false,
     theme: {
@@ -45,7 +46,7 @@ var config = {
         src: 'img/logo.svg'
       },
       items: [{
-        href: 'https://github.com/siberian-protocol',
+        href: 'https://github.com/sibe-finance',
         position: 'right',
         label: 'GitHub'
       }]
