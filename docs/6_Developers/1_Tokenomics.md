@@ -1,6 +1,6 @@
 ## Sibe token 
 
-Sibe is wrapped SOL spl token, which gives any person the ability to own the amount of spl token Sibe equivalent to price. It’s price can be calculated with next formula:
+Sibe is a wrapped SOL spl token, which gives any person the ability to own the amount of spl token Sibe equivalent to the price. It’s price can be calculated with the next formula:
 >**SIBE price = total staked / tokens minted**
 
 <br />
@@ -13,17 +13,17 @@ Staking pool is a deposit back that exchanges stake [liquidity](/FAQ/Glossary#li
 
 :::info
 
-SIBERIAN protocol has an ongoing management fee of (~0.14% p.a.) to support further product development. It is automatically taken from your staking rewards and equal to 2% of your rewards.
+Sibe protocol has an ongoing management fee of (~0.14% p.a.) to support further product development. It is automatically taken from your staking rewards and equal to 2% of your rewards.
 
 :::
 
 #### Step by step
 
 1. Stake your SOl and receive Sibe
-2. Create your stake account an add liquidity equal to SOL
+2. Create your stake account and add liquidity equal to SOL
 3. You can create 2 orders:
 
-    **market order** — unstake your liquidity straightaway and pay fee(0,3-3%)
+    **market order** — unstake your liquidity straightaway and pay the fee(0,3-3%)
 
     >market fee = max fee - (max fee - min fee) * amount after / target
 
@@ -43,7 +43,7 @@ The main characteristics of the Sibe protocol Sibe/SOL [liquidity pool](/FAQ/Glo
 There is a possibility to receive rewards from every market order accept for providing SOL liquidity pool.
 
 ### Order matching
-Sibe protocol continuously regulates the liquidity pool to be 100% SOL, so all unnecessary operations are reduced and the liquidity pool reaches significant results in efficiency.
+Sibe protocol continuously regulates the liquidity pool to be 100% SOL, so all unnecessary operations are reduced and the liquidity pool reaches significant results on efficiency.
 The process looks like this:
 
 **A** 
@@ -56,14 +56,14 @@ The Sibe is provided from the liquidity pool just as the call of another stake o
 
 **F**
 
-In order to complete the adjustment and full liquidity for immediate unstaking, user deposited SOL at no cost are used to refill the liquidity pool.
+To complete the adjustment and full liquidity for immediate unstaking, user deposited SOL at no cost are used to refill the liquidity pool.
 
 
 ### Pairs: SOL / SIBE
 
 :::note
 
-The pool has a linear swap fee decreasing until the target liquidity is reached to cover for operation costs and incentivize liquidity providers. 75% of the fees goes to liquidity providers and 25% to the SIBE treasury.
+The pool has a linear swap fee decreasing until the target liquidity is reached to cover operation costs and incentivize liquidity providers. 75% of the fees go to liquidity providers and 25% to the SIBE treasury.
 
 :::
 
@@ -94,17 +94,17 @@ You will receive SOL at the beginning of epoch n+2. The amount computed when the
 ## Sibeswap V1 
 :::info
 
-Comming soon
+Coming soon
 
 :::
 
 ## Sibe bot system
 
-Bot takes care of multiple operations, mainly updating SIBE price, delegation strategy and matching staking with unstaking orders.
+The bot takes care of multiple operations, mainly updating SIBE price, delegation strategy, and matching staking with unstaking orders.
 
 ## NFT
 
-We will create a simple marketplace. At first, we are going to release only our own collections, limit order snapshots and skins. Later there will be an ability to create and trade nft and also usage of nft along with DeFi will be integrated.
+We will create a simple marketplace. At first, we are going to release only our collections, limit order snapshots and skins. Later there will be an ability to create and trade nft and also usage of nft along with DeFi will be integrated.
 
 ## Finance tokenomic plan
 
@@ -130,7 +130,7 @@ You receive 89.73 SOL after your transaction and you pay 0.27 SOL in fees for un
 2. Now, let's take a (fictive) scenario where the parameters of the pool are very different: <br />
 
 Unstake liquidity: 100,030 SOL <br />
-Amount you want to unstake immediately: 9030 SOL <br />
+The amount you want to unstake immediately: 9030 SOL <br />
 Your fees would be calculated as such: 
 
 >100,030 - 9030 = 91,000
@@ -142,6 +142,4 @@ No. We calculate the fees with the following formula:
 market fee = 3 - (3 - 0.3) * 91,000 / 100,000 <br />
 market fee = 3 - 2.457 = 0.543 <br />
 9030 - 0.543% = 8980.9671 SOL <br />
-
-
 

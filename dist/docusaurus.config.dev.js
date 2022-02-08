@@ -20,7 +20,6 @@ var config = {
   // Usually your GitHub org/user name.
   projectName: 'sibe-docs',
   // Usually your repo name.
-  trailingSlash: false,
   presets: [['classic',
   /** @type {import('@docusaurus/preset-classic').Options} */
   {

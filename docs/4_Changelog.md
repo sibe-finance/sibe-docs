@@ -1,3 +1,6 @@
+---
+slug: /Changelog
+---
 >All significant updates and changes are going to be mentioned here.
 
 <!-- template for changelog

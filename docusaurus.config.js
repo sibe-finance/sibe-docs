@@ -15,8 +15,6 @@ const config = {
   favicon: 'img/favicon.svg',
   organizationName: 'sibe-finance', // Usually your GitHub org/user name.
   projectName: 'sibe-docs', // Usually your repo name.
-  trailingSlash: false,
-
   presets: [
     [
       'classic',
