@@ -9,7 +9,7 @@ Sibe is a wrapped SOL spl token, which gives any person the ability to own the a
 
 ## Staking pool 
 
-Staking pool is a deposit back that exchanges stake [liquidity](FAQ/Glossary#liquidity) amount of SOL for rewards to all owners by percent.
+Staking pool is a deposit back that exchanges stake [liquidity](../FAQ/Glossary#liquidity) amount of SOL for rewards to all owners by percent.
 
 :::info
 
