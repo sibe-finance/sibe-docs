@@ -9,7 +9,7 @@ Sibe is a wrapped SOL spl token, which gives any person the ability to own the a
 
 ## Staking pool 
 
-Staking pool is a deposit back that exchanges stake [liquidity](/FAQ/Glossary#liquidity) amount of SOL for rewards to all owners by percent.
+Staking pool is a deposit back that exchanges stake [liquidity](FAQ/Glossary#liquidity) amount of SOL for rewards to all owners by percent.
 
 :::info
 
@@ -27,7 +27,7 @@ Sibe protocol has an ongoing management fee of (~0.14% p.a.) to support further 
 
     >market fee = max fee - (max fee - min fee) * amount after / target
 
-    **limit order** — generate NFT order, that gives your stake fees later
+    **limit order** — generate NFT order, that gives your stake rewards later
 
 | |    |
 | --- | ----------- |

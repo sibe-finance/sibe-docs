@@ -8,3 +8,7 @@ The main advantage is that governance rules are applied on-chain, by smart contr
 
 ## Sibe DAO
 Sibe DAO provides a carefully selected list of [validators](/FAQ/Glossary#validators), to make the usage as secure and comfortable as possible. Sibe holders become a full part of our community and can participate in voting, taking part in the development of the protocol, and solving important issues of the organization and ecosystem.
+
+## DAO Treasury 
+
+DAO Treasury is a capital used for implementation of proposals and programs for onboarding of projects with a use of launch.  
